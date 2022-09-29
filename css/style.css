@@ -7,7 +7,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #191919;
+    background-color: rgba(168, 43, 226, 0.389);
+    background-image: 
+    url('../img/abstrata-3.png'),
+    url('../img/abstrata-3.png');
+    background-repeat: no-repeat no-repeat;
+    background-position: left 12em center, right 12em center;
     min-height: 100vh;
   }
   
@@ -22,37 +27,73 @@
   h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    color: #fff;
+    color: #191919;
   }
   
+  .container {
+    width: 320px;
+    height: 650px;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #ffffff;
+    border: 5px solid #191919;
+    border-radius: 30px;
+    box-shadow: 0px 12px 14px rgba(0, 0, 0, 0.45);
+  }
+
   .teclado {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px; 
-    background-color: #cccccc;
+    background-color: #ffffff;
     border-radius: 30px;
     padding: 10px;
   }
   
   input[type=button] {
-    border-radius: 20px;
+    background-color: #ffffff;
+    border-radius: 100%;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
     height: 80px;
     width: 80px;
   }
 
+  input[type=button].ligar{
+    background-color: #4CAF50;
+    background-image: url('../img/tel.png');
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+  }
+
+  
+
+input[type=button]:hover {
+      background-color: #cccccc;
+      border-radius: 100%;
+}
+
+input[type=button].ligar:hover{
+  background-color: #64da66;
+}
+
+input[type=button].branco:hover {
+  background-color: #fff;
+}
+
+
 input[type=button].ativa,
 input[type=button]:active {
-  background-color: black;
-  border: 4px solid  blue;
-  box-shadow: 3px 3px 0 greenyellow inset;
+  background-color: #9a9999;
+  border: 4px solid  #4f4f4f;
+  box-shadow: 3px 3px 0 #191919 inset;
   color: white;
   outline: none;
 }
   
   input[type=tel] {
-    background-color: #cccccc;
     border-radius: 10px;
     font-family: monospace;
     font-size: 22px;
