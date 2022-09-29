@@ -50,3 +50,24 @@ Faça um JavaScript que percorra a lista de teclas, e ao clicar na tecla Enter o
 - Dentro do escopo da função, faça um _if_ com a condição: se _evento.code_ (o código do evento onkeydown) for igual a "Enter" ou for igual a "Space", adicione a classe ativa no elemento tecla: _'tecla.classList.add(‘ativa’);'_
 - evento de _onkeyup_ = quando o usuário solta a tecla;
 - dentro do escopo desta função, remover a classe ativa: _'tecla.classList.remove(‘ativa’);'_
+
+
+
+### :wrench:Ferramentas:
+
+Ferramentas utilizadas para auxiliar na execução do projeto:
+
+- **Visual Studio Code** - editor de código
+
+- **Github** - Para estruturar o portfólio 
+
+  
+
+### :heart:Agradecimentos:  
+
+- Instrutora: 
+  - [Vanessa Me Tonini](https://www.linkedin.com/in/vanessametonini/);
+  - [Alura](www.alura.com.br)   
+
+
+<p align="center">Desenvolvido 💗 por <a href="https://github.com/jumotac">Ju Mota</a></p>
