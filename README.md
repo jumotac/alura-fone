@@ -1,3 +1,15 @@
+| :placard: Vitrine.Dev |     |
+| ------------- | --- |
+| :sparkles: Nome | **Alura Fone** 
+| :label: Tecnologias | JAVASCRIPT, HTML, CSS 
+| :rocket: URL | https://jumotac.github.io/alura-fone/
+| :fire: Desafio | Crie Páginas Dinâmicas com JavaScript
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://raw.githubusercontent.com/jumotac/alura-fone/master/img/alura-fone.png#vitrinedev)
+
+
+
 # JavaScript para Web: Crie Páginas Dinâmicas
 
 
